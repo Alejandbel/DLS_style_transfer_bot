@@ -22,7 +22,7 @@ echo BOT_TOKEN=YOUR_BOT_TOKEN > .env
 ```
 > Note: without .env file it wont even start
 
-Install the dependencies and with pip and start the bot.
+Install the dependencies with pip and start the bot.
 
 ```sh
 pip install -r /requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
