@@ -1,6 +1,6 @@
 from torch import nn as nn
 
-from src.model.conv_layer import ConvLayer
+from .conv_layer import ConvLayer
 
 
 class Bottleneck(nn.Module):

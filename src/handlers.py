@@ -1,7 +1,7 @@
 from aiogram import types, Dispatcher, Bot
 
-from config import BOT_TOKEN
-from controllers import HandlersController
+from .config import BOT_TOKEN
+from .controllers import HandlersController
 
 bot = Bot(token=BOT_TOKEN)
 

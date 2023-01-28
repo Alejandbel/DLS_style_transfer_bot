@@ -1,10 +1,10 @@
 from torch import nn as nn
 
-from src.model.inspiration import Inspiration
-from src.model.conv_layer import ConvLayer
-from src.model.up_bottleneck import UpBottleneck
-from src.model.bottleneck import Bottleneck
-from src.model.gram_matrix import GramMatrix
+from .bottleneck import Bottleneck
+from .conv_layer import ConvLayer
+from .gram_matrix import GramMatrix
+from .inspiration import Inspiration
+from .up_bottleneck import UpBottleneck
 
 
 class Net(nn.Module):

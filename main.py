@@ -1,9 +1,7 @@
-import asyncio
-
 from aiogram import executor, Dispatcher
 
-from dispatcher_mutators import apply_commands
-from handlers import dp
+from src.dispatcher_mutators import apply_commands
+from src.handlers import dp
 
 
 async def on_startup(dp: Dispatcher):

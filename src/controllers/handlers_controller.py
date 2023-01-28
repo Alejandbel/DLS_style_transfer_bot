@@ -3,8 +3,7 @@ import os
 
 from aiogram import types
 
-from src.constants import MAX_PHOTO_SIZE
-from src.constants.messages import MESSAGE
+from ..constants import MAX_PHOTO_SIZE, MESSAGE
 from src.services import UsersService
 
 users_service = UsersService()

@@ -1,6 +1,6 @@
 from torch import nn as nn
 
-from src.model.upsample_conv_layer import UpsampleConvLayer
+from .upsample_conv_layer import UpsampleConvLayer
 
 
 class UpBottleneck(nn.Module):
