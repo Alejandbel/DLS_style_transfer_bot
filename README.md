@@ -1,7 +1,7 @@
 # Style transfer bot
 ## _DLS final project_
 
-This project was created as a final task in [Deep Learning Shool](https://dls.samcs.ru/). Bot deployed on custom linux server on [vultr](vultr.com)
+This project was created as a final task in [Deep Learning Shool](https://dls.samcs.ru/). Bot deployed on custom linux server on [vultr](https://vultr.com).
 
 ## Examle of work
 
