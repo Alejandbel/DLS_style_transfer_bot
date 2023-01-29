@@ -40,7 +40,7 @@ When ready, simply use the Dockerfile to build the image.
 docker build -t <youruser>/style_bot:${version}
 ```
 
-This will create the dillinger image and pull in the necessary dependencies.
+This will create the bot image and pull in the necessary dependencies.
 Be sure to swap out `${version}` with the actual
 version of bot.
 
